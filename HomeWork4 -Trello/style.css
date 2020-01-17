@@ -1,0 +1,55 @@
+body {
+  background-color: #fff;
+  margin: 0; 
+  padding: 0;
+  min-width: 320px;
+}
+
+.column {
+  position: relative;
+  background-color: #EADEDB;
+  padding: 10px;
+  margin: 0 auto;
+  width: 200px;
+  border-radius: 5px;
+ }
+
+.column-title {
+  font-size: 18px;
+  margin: 5px 0;
+}
+.add-card-btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #DBB1CD;
+  color: #fff;
+  border-radius: 5px;
+}
+.sort-cards-btn {
+  position: absolute;
+  background-color: #00A591;
+  color: #fff;
+  right: 10px;
+  top: 15px;
+  border-radius: 5px;
+}
+
+.card {
+  background-color: #6F9FD8;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.315);
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+#card-text {
+  display: block;
+  background-color: #dde4ec;
+  border: none;
+  padding: 5px;
+  width: 94%;
+}
