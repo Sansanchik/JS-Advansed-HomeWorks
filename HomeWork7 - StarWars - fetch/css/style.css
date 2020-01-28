@@ -1,0 +1,30 @@
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1040px;
+    position: relative;
+}
+.film-item {
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    margin: 10px;
+    max-width: 450px;
+}
+.episode-name {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    text-align: center;
+    color: yellow;
+}
+.item {
+    margin: 10px 0;
+    text-align: center;
+    color: green;
+}
+.Characters {
+    margin: 10px 0;
+    text-align: center;
+    color: lightblue;
+}
